@@ -17,7 +17,7 @@ The repository structure primarily consists of Jupyter notebooks detailing the m
 ## 🧠 Methodology
 The models employ an encoder-decoder architecture typical for semantic segmentation tasks (e.g., U-Net).
 
-1.  **Architecture:** Implementation of a U-Net or similar FCN (Fully Convolutional Network).
+1.  **Architecture:** Implementation of a Attention U-Net using Depthwise separable convolution.
 2.  **Training:** Utilizes medical imaging data, often requiring specialized data loaders and augmentation routines (rotation, flipping, contrast adjustments).
 3.  **Optimization:** Experimentation with various loss functions suitable for segmentation (e.g., Dice Loss, Focal Loss).
 4.  **Evaluation:** Performance is primarily measured using the **Dice Coefficient** (F1 Score) and **IoU**.
